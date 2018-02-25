@@ -1,1 +1,2 @@
 # Noise-Level-Monitor
+This code works to monitor noise levels in a home and send an email notification if noise levels excede a threshold value over a defined period of time. This code is wiritten with arduino libraries for noise signal processing, and uses serial commnications to trigger python code to send the notification email. The designed use of this device is for lardlords to ensure tenants are not throwing parties without relying on the usual noise complaint from an upset neighbor. This code runs on the Dragonboard with the grove mezzenine.
